@@ -92,6 +92,30 @@ ymaps.ready(function () {
             $("#videoContainer").show();
             $("#photoContainer").hide();
         })
+
+        $('.jcarousel').jcarousel({
+            list: '.jcarousel-list',
+            items: '.jcarousel-list-item'
+        });
+
+        var instance = $('.jcarousel').data('jcarousel');
+
+        $("#nextSlide").on('click', function(){
+            console.log('click')
+            instance.scroll("+=1");
+        })
+
+        $("#prevSlide").on('click', function(){
+            instance.scroll("-=1");
+        })
+
+        $(".photos-column img").on('click', function() {
+            $(".photo-viewer img").attr('src', $(this).attr('src').replace("_s", ""))
+        })
+
+        $(".videos-column img").on('click', function() {
+            $(".video-viewer iframe").attr('src', $(this).attr('data-video-src'))
+        })
     });
     function scrollToAnchor(aid){
         var aTag = $("a[name='"+ aid +"']");

@@ -1066,7 +1066,7 @@ footer .organizator-footer {
     background-image: url("../img/announcements_bg.png");
     background-position: center top;
     background-size: cover;
-    padding-bottom: 200px;
+    padding-bottom: 60px;
 }
 
 .contacts-container{
@@ -1273,7 +1273,7 @@ footer .organizator-footer {
 }
 
 .photo-viewer {
-    width: 60%;
+    width: 72%;
     margin: 0 10px;
 }
 
@@ -1282,15 +1282,15 @@ footer .organizator-footer {
 }
 
 .photos-column{
-    width: 20%;
-    margin: -10px 10px;
+    width: 50%;
+    margin: -15px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .photos-column img {
     width: 100%;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .videos-container {
@@ -1305,6 +1305,7 @@ footer .organizator-footer {
 
 .video-viewer iframe {
     width: 100%;
+    height: 100%;
 }
 
 .videos-column{
@@ -1325,6 +1326,80 @@ footer .organizator-footer {
     font-family: CirceRegular;
     padding-left: 80px;
     margin-top: 40px;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.jcarousel .jcarousel-prev, .jcarousel-next {
+    visibility: hidden;
+}
+
+.jcarousel:hover .jcarousel-prev, .jcarousel-next {
+    visibility: visible;
+}
+
+.jcarousel .jcarousel-next {
+    visibility: hidden;
+}
+
+.jcarousel:hover .jcarousel-next {
+    visibility: visible;
+}
+
+.jcarousel-prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    margin: -20px 0 0;
+    background: url(../img/bg_direction_nav.png) no-repeat;
+    background-position: 0 -2px;
+    cursor: pointer;
+    text-indent: -9999px;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, 0);
+}
+
+.jcarousel-prev:hover {
+    background: url(../img/bg_direction_nav.png) no-repeat rgba(0, 0, 0, 0.2);
+    background-position: 0 -2px;
+}
+
+.jcarousel-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    margin: -20px 0 0;
+    background: url(../img/bg_direction_nav.png) no-repeat;
+    background-position: 100% -2px;
+    cursor: pointer;
+    text-indent: -9999px;
+    top: 50%;
+    right: 0px;
+    transform: translate(-50%, 0);
+}
+
+.jcarousel-next:hover {
+    background: url(../img/bg_direction_nav.png) no-repeat rgba(0, 0, 0, 0.2);
+    background-position: 100% -2px;
+}
+
+.jcarousel-list {
+    display: flex;
+    position: absolute;
+    width: 200%;
+    margin: 0 -10px;
+}
+
+.jcarousel-list-item {
+    display: flex;
 }
 
 .toggle-menu-container{display:none}
