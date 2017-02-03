@@ -12,7 +12,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../img/map_pointer.png',
+            iconImageHref: 'img/map_pointer.png',
             // Размеры метки.
             iconImageSize: [30, 42],
             // Смещение левого верхнего угла иконки относительно
@@ -75,6 +75,22 @@ ymaps.ready(function () {
             } else {
                 $('.active').toggleClass('active');
             }
+        })
+
+        $("#photoBtn").on('click', function(e){
+            e.preventDefault();
+            e.stopPropagation();
+
+            $("#videoContainer").hide();
+            $("#photoContainer").show();
+        })
+
+        $("#videoBtn").on('click', function(e){
+            e.preventDefault();
+            e.stopPropagation();
+
+            $("#videoContainer").show();
+            $("#photoContainer").hide();
         })
     });
     function scrollToAnchor(aid){

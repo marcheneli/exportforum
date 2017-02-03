@@ -2,70 +2,70 @@
     font-family: CoTextCorpRegular;
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/CoTextCorp.eot?#iefix) format("embedded-opentype"),url(/fonts/CoTextCorp.woff) format("woff"),url(/fonts/CoTextCorp.ttf) format("truetype")
+    src: url(../fonts/CoTextCorp.eot?#iefix) format("embedded-opentype"),url(../fonts/CoTextCorp.woff) format("woff"),url(../fonts/CoTextCorp.ttf) format("truetype")
 }
 
 @font-face {
     font-family: CoTextCorpBold;
     font-style: normal;
     font-weight: 700;
-    src: url(/fonts/CoTextCorpBold.eot?#iefix) format("embedded-opentype"),url(/fonts/CoTextCorpBold.woff) format("woff"),url(/fonts/CoTextCorpBold.ttf) format("truetype")
+    src: url(../fonts/CoTextCorpBold.eot?#iefix) format("embedded-opentype"),url(../fonts/CoTextCorpBold.woff) format("woff"),url(../fonts/CoTextCorpBold.ttf) format("truetype")
 }
 
 @font-face {
     font-family: CoTextCorp;
     font-style: normal;
     font-weight: 300;
-    src: url(/fonts/CoTextCorpLight.eot?#iefix) format("embedded-opentype"),url(/fonts/CoTextCorpLight.woff) format("woff"),url(/fonts/CoTextCorpLight.ttf) format("truetype")
+    src: url(../fonts/CoTextCorpLight.eot?#iefix) format("embedded-opentype"),url(../fonts/CoTextCorpLight.woff) format("woff"),url(../fonts/CoTextCorpLight.ttf) format("truetype")
 }
 
 @font-face {
     font-family: CoHeadlineCorp;
     font-style: normal;
     font-weight: 300;
-    src: url(/fonts/CoHeadlineCorpLight.eot?#iefix) format("embedded-opentype"),url(/fonts/CoHeadlineCorpLight.woff) format("woff"),url(/fonts/CoHeadlineCorpLight.ttf) format("truetype")
+    src: url(../fonts/CoHeadlineCorpLight.eot?#iefix) format("embedded-opentype"),url(../fonts/CoHeadlineCorpLight.woff) format("woff"),url(../fonts/CoHeadlineCorpLight.ttf) format("truetype")
 }
 
 @font-face {
     font-family: CirceMediumLight;
     font-style: normal;
     font-weight: 150;
-    src: url(/fonts/CRC15.otf) format("truetype")
+    src: url(../fonts/CRC15.otf) format("truetype")
 }
 
 @font-face {
     font-family: CirceLight;
     font-style: normal;
     font-weight: 250;
-    src: url(/fonts/CRC25.otf) format("truetype")
+    src: url(../fonts/CRC25.otf) format("truetype")
 }
 
 @font-face {
     font-family: CirceRegular;
     font-style: normal;
     font-weight: 350;
-    src: url(/fonts/CRC35.otf) format("truetype")
+    src: url(../fonts/CRC35.otf) format("truetype")
 }
 
 @font-face {
     font-family: CirceBold;
     font-style: normal;
     font-weight: 650;
-    src: url(/fonts/CRC55.otf) format("truetype")
+    src: url(../fonts/CRC55.otf) format("truetype")
 }
 
 @font-face {
     font-family: CirceMediumBold;
     font-style: normal;
     font-weight: 750;
-    src: url(/fonts/CRC65.otf) format("truetype")
+    src: url(../fonts/CRC65.otf) format("truetype")
 }
 
 @font-face {
     font-family: CirceExtraBold;
     font-style: normal;
     font-weight: 750;
-    src: url(/fonts/Circe-ExtraBold.otf) format("truetype")
+    src: url(../fonts/Circe-ExtraBold.otf) format("truetype")
 }
 
 body {
@@ -162,7 +162,7 @@ body {
 }
 
 #jumbotron {
-    background-image: url("/img/main_jumbotron_bg.png");
+    background-image: url("../img/main_jumbotron_bg.png");
     background-position: center top;
     background-size: cover;
 }
@@ -174,7 +174,7 @@ body {
 
 #jumbotron .jumbotron-logos {
     height: 800px;
-    background-image: url("/img/made_in_russia_logo.svg"), url("/img/bottom_logo.svg");
+    background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: left 75px top 50px, right 75px top 50px;
     background-size: 250px 125px, 250px 125px;
@@ -250,7 +250,7 @@ body {
 
 .organizator {
     display: inline-block;
-    background: url("/img/logo_2.png") no-repeat left 80px top 10px;
+    background: url("../img/logo_2.png") no-repeat left 80px top 10px;
     text-align: left;
 }
 
@@ -259,14 +259,14 @@ body {
     color: #15284D;
     font-family: CirceMediumBold;
     font-size: 12px;
-    background: url("/img/underline.png") no-repeat bottom 10px left;
+    background: url("../img/underline.png") no-repeat bottom 10px left;
 }
 
 .organizator .exar {
     padding-left: 22px;
     font-family: CirceMediumBold;
     font-size: 10px;
-    background: url("/img/exar.png") no-repeat left center;
+    background: url("../img/exar.png") no-repeat left center;
 }
 
 .organizator .roseximbank {
@@ -274,7 +274,7 @@ body {
     font-family: CirceMediumBold;
     font-size: 10px;
     color: #4D67AC;
-    background: url("/img/roseximbank.png") no-repeat left center;
+    background: url("../img/roseximbank.png") no-repeat left center;
 }
 
 #jumbotron .jumbotron-info {
@@ -411,7 +411,7 @@ body {
     text-decoration: none;
     width: 400px;
     height: 200px;
-    background: url("/img/tass_logo_st_ru.png") no-repeat;
+    background: url("../img/tass_logo_st_ru.png") no-repeat;
     background-size: 140px 200px;
     background-position: center center;
 }
@@ -421,7 +421,7 @@ body {
     text-decoration: none;
     width: 400px;
     height: 200px;
-    background: url("/img/businessfm_logo.png") no-repeat;
+    background: url("../img/businessfm_logo.png") no-repeat;
     background-size: 300px 75px;
     background-position: center center;
 }
@@ -431,7 +431,7 @@ body {
     text-decoration: none;
     width: 200px;
     height: 60px;
-    background: url("/img/expert_logo.jpg") no-repeat;
+    background: url("../img/expert_logo.jpg") no-repeat;
     background-size: 180px 40px;
     background-position: center center;
 }
@@ -441,7 +441,7 @@ body {
     text-decoration: none;
     width: 200px;
     height: 60px;
-    background: url("/img/rossiya24_logo.png") no-repeat;
+    background: url("../img/rossiya24_logo.png") no-repeat;
     background-size: 180px 40px;
     background-position: center center;
 }
@@ -451,7 +451,7 @@ body {
     text-decoration: none;
     width: 200px;
     height: 60px;
-    background: url("/img/tpp_ru.png") no-repeat;
+    background: url("../img/tpp_ru.png") no-repeat;
     background-size: 60px 60px;
     background-position: center center;
 }
@@ -461,7 +461,7 @@ body {
     text-decoration: none;
     width: 200px;
     height: 60px;
-    background: url("/img/commersant_logo.png") no-repeat;
+    background: url("../img/commersant_logo.png") no-repeat;
     background-size: 180px 30px;
     background-position: center center;
 }
@@ -471,7 +471,7 @@ body {
     text-decoration: none;
     width: 250px;
     height: 70px;
-    background: url("/img/opora_logo.png") no-repeat;
+    background: url("../img/opora_logo.png") no-repeat;
     background-size: 220px 55px;
     background-position: center center;
 }
@@ -481,7 +481,7 @@ body {
     text-decoration: none;
     width: 250px;
     height: 70px;
-    background: url("/img/chamber_logo.png") no-repeat;
+    background: url("../img/chamber_logo.png") no-repeat;
     background-size: 220px 55px;
     background-position: center center;
 }
@@ -491,7 +491,7 @@ body {
     text-decoration: none;
     width: 250px;
     height: 70px;
-    background: url("/img/wtc_logo.png") no-repeat;
+    background: url("../img/wtc_logo.png") no-repeat;
     background-size: 220px 55px;
     background-position: center center;
 }
@@ -501,7 +501,7 @@ body {
     text-decoration: none;
     width: 400px;
     height: 200px;
-    background: url("/img/mpt_logo.svg") no-repeat;
+    background: url("../img/mpt_logo.svg") no-repeat;
     background-size: 380px 130px;
     background-position: center center;
 }
@@ -511,7 +511,7 @@ body {
     text-decoration: none;
     width: 400px;
     height: 200px;
-    background: url("/img/rosakr_logo.png") no-repeat;
+    background: url("../img/rosakr_logo.png") no-repeat;
     background-size: 380px 170px;
     background-position: center center;
 }
@@ -521,7 +521,7 @@ body {
     text-decoration: none;
     width: 400px;
     height: 200px;
-    background: url("/img/mer_logo.svg") no-repeat;
+    background: url("../img/mer_logo.svg") no-repeat;
     background-size: 380px 170px;
     background-position: center center;
 }
@@ -568,11 +568,11 @@ h2 {
     margin: 14px 0px;
     padding-left: 40px; 
     overflow: visible;
-    background: url("/img/red_li_point.png") no-repeat top 5px left;
+    background: url("../img/red_li_point.png") no-repeat top 5px left;
 }
 
 #regprog {
-    background: url("/img/reg_prog_bg.png") no-repeat;
+    background: url("../img/reg_prog_bg.png") no-repeat;
     background-size: cover;
     background-position: center top;
 }
@@ -924,35 +924,35 @@ footer .organizator-logo {
     height: 300px;
     text-align: right;
     float: right;
-    background-image: url("/img/bottom_logo.svg");
+    background-image: url("../img/bottom_logo.svg");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 400px 200px;
 }
 
 footer .organizator {
-    background: url("/img/logo_2.png") no-repeat left 0px top 10px;
+    background: url("../img/logo_2.png") no-repeat left 0px top 10px;
     background-size: 160px 90px;
 }
 
 footer .organizator .organization-name {
     font-size: 22px;
     line-height: 26px;
-    background: url("/img/underline.png") no-repeat bottom 10px left;
+    background: url("../img/underline.png") no-repeat bottom 10px left;
     background-size: 300px 15px;
 }
 
 footer .organizator .exar {
     padding-left: 40px;
     font-size: 22px;
-    background: url("/img/exar.png") no-repeat left center;
+    background: url("../img/exar.png") no-repeat left center;
     background-size: 32px 18px;
 }
 
 footer .organizator .roseximbank {
     padding-left: 40px;
     font-size: 22px;
-    background: url("/img/roseximbank.png") no-repeat left center;
+    background: url("../img/roseximbank.png") no-repeat left center;
     background-size: 32px 18px;
 }
 
@@ -1063,7 +1063,7 @@ footer .organizator-footer {
 }
 
 #announcement_archive_contacts {
-    background-image: url("/img/announcements_bg.png");
+    background-image: url("../img/announcements_bg.png");
     background-position: center top;
     background-size: cover;
     padding-bottom: 200px;
@@ -1107,7 +1107,7 @@ footer .organizator-footer {
     height: 35px;
     top:0;
     left: -40px;
-    background-image: url("/img/location_icon.png");
+    background-image: url("../img/location_icon.png");
     background-position: left -5px top -10px;
     background-repeat: no-repeat;
 }
@@ -1127,7 +1127,7 @@ footer .organizator-footer {
     height: 35px;
     top:0;
     left: -37px;
-    background-image: url("/img/phone_icon.png");
+    background-image: url("../img/phone_icon.png");
     background-position: left top;
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -1147,7 +1147,7 @@ footer .organizator-footer {
     height: 35px;
     top:0;
     left: -37px;
-    background-image: url("/img/email_icon.png");
+    background-image: url("../img/email_icon.png");
     background-position: left top;
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -1289,6 +1289,32 @@ footer .organizator-footer {
 }
 
 .photos-column img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.videos-container {
+    display: flex;
+    margin: 40px -10px;
+}
+
+.video-viewer {
+    width: 60%;
+    margin: 0 10px;
+}
+
+.video-viewer iframe {
+    width: 100%;
+}
+
+.videos-column{
+    width: 20%;
+    margin: -10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos-column img {
     width: 100%;
     margin: 10px 0;
 }
