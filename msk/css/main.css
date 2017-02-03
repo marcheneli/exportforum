@@ -534,6 +534,16 @@ body {
     background-position: center center;
 }
 
+.ros_nadzor_logo {
+    display: block;
+    text-decoration: none;
+    width: 250px;
+    height: 170px;
+    background: url("../../img/rospotrebnadzor.png") no-repeat;
+    background-size: 160px 160px;
+    background-position: center center;
+}
+
 #about p {
     color: #2B54A1;
     font-family: CirceBold;
