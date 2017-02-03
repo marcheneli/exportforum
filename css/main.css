@@ -1279,6 +1279,7 @@ footer .organizator-footer {
 
 .photo-viewer img {
     width: 100%;
+    border: 4px solid #4E8FCC;
 }
 
 .photos-column{
@@ -1308,16 +1309,48 @@ footer .organizator-footer {
     height: 100%;
 }
 
-.videos-column{
+.videos-column {
     width: 20%;
     margin: -10px 10px;
     display: flex;
     flex-direction: column;
 }
 
-.videos-column img {
+.videos-info-container {
     width: 100%;
     margin: 10px 0;
+}
+
+.videos-info-container>div {
+    position: relative;
+    cursor: pointer;
+}
+
+.videos-info-container>div>img {
+    display: block;
+    width: 100%;
+}
+
+.videos-info-container>div>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba(28, 117, 188, 0.8);
+    color: #fff;
+    font-family: CirceBold;
+    font-size: 16px;
+}
+
+.videos-info-container>div:hover>div {
+    visibility: visible;
+}
+
+.videos-info-container>div>div>p {
+    padding: 10px;
+    cursor: pointer;
 }
 
 .export-requisites{
@@ -1351,6 +1384,12 @@ footer .organizator-footer {
     visibility: visible;
 }
 
+.jcarousel-btn-container {
+    position:relative;
+    width: 60px;
+    margin: 0 10px;
+}
+
 .jcarousel-prev {
     width: 50px;
     height: 50px;
@@ -1362,8 +1401,8 @@ footer .organizator-footer {
     cursor: pointer;
     text-indent: -9999px;
     top: 50%;
-    left: 30px;
-    transform: translate(-50%, 0);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .jcarousel-prev:hover {
@@ -1382,8 +1421,8 @@ footer .organizator-footer {
     cursor: pointer;
     text-indent: -9999px;
     top: 50%;
-    right: 0px;
-    transform: translate(-50%, 0);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .jcarousel-next:hover {

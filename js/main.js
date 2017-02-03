@@ -113,8 +113,9 @@ ymaps.ready(function () {
             $(".photo-viewer img").attr('src', $(this).attr('src').replace("_s", ""))
         })
 
-        $(".videos-column img").on('click', function() {
-            $(".video-viewer iframe").attr('src', $(this).attr('data-video-src'))
+        $(".videos-info-container").on('click', function() {
+           var img = $(this).find('img')
+            $(".video-viewer iframe").attr('src', img.attr('data-video-src'))
         })
     });
     function scrollToAnchor(aid){
