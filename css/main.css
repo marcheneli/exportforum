@@ -1273,7 +1273,7 @@ footer .organizator-footer {
 }
 
 .photo-viewer {
-    width: 72%;
+    flex: 1;
     margin: 0 10px;
 }
 
@@ -1284,14 +1284,14 @@ footer .organizator-footer {
 
 .photos-column{
     width: 50%;
-    margin: -15px 10px;
+    margin: -10px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .photos-column img {
     width: 100%;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .videos-container {
@@ -1364,7 +1364,7 @@ footer .organizator-footer {
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 30%;
+    width: 34%;
     margin: 0 10px;
 }
 
