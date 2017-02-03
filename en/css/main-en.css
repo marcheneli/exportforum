@@ -1,0 +1,140 @@
+.full-name div {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.full-name div:first-child {
+    padding-right: 7.5px;
+    padding-left: 0px;
+}
+
+.full-name div:last-child {
+    padding-left: 7.5px;
+    padding-right: 0px;
+}
+
+.company-name div {
+    width: 60%;
+}
+
+.position-name div {
+    width: 60%;
+}
+
+.company-name div:last-child {
+    padding: 0px;
+}
+
+.position-name div:last-child {
+    padding: 0px;
+}
+
+.email-phonenumber>div:last-child {
+    width: 50%;
+}
+
+.email-phonenumber div:last-child input {
+    width: 100%;
+}
+
+.email-phonenumber div:first-child {
+    width: 40%;
+}
+
+.email-phonenumber div:first-child input {
+    width: 100%;
+}
+
+.tass_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 400px;
+    height: 200px;
+    background: url("/img/tass_logo_st_en.png") no-repeat;
+    background-size: 140px 200px;
+    background-position: center center;
+}
+
+.businessfm_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 400px;
+    height: 200px;
+    background: url("/img/businessfm_logo_en.png") no-repeat;
+    background-size: 305px 55px;
+    background-position: center 55px;
+}
+
+.expert_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    background: url("/img/expert_logo.jpg") no-repeat;
+    background-size: 180px 40px;
+    background-position: center center;
+}
+
+.russia24_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    background: url("/img/russia24_logo_en.png") no-repeat;
+    background-size: 180px 40px;
+    background-position: center center;
+}
+
+.tpp_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    background: url("/img/tpp_ru.png") no-repeat;
+    background-size: 60px 60px;
+    background-position: center center;
+}
+
+.commersant_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    background: url("/img/commersant_logo_en.png") no-repeat;
+    background-size: 180px 30px;
+    background-position: center center;
+}
+
+.opora_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    height: 110px;
+    background: url("/img/opora_logo.png") no-repeat;
+    background-size: 180px 40px;
+    background-position: center center;
+    margin-right: 0px;
+}
+
+.chamber_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    height: 110px;
+    background: url("/img/chamber_logo_eng.png") no-repeat;
+    background-size: 180px 100px;
+    background-position: center center;
+    margin-right: 0px;
+}
+
+.wtc_logo_en {
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    height: 110px;
+    background: url("/img/wtc_logo.png") no-repeat;
+    background-size: 180px 40px;
+    background-position: center center;
+    margin-right: 0px;
+}
