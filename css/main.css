@@ -173,7 +173,7 @@ body {
 }
 
 #jumbotron .jumbotron-logos {
-    height: 800px;
+    height: 700px;
     background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: left 75px top 50px, right 75px top 50px;
