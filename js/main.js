@@ -53,7 +53,7 @@ ymaps.ready(function () {
 
         $(D).scroll(function(e){
             var scrollingElement = $(e.target.scrollingElement);
-            var anchors = $.makeArray(e.target.anchors);
+            var anchors = $.makeArray($('.header-anchor'));
             anchors.reverse();
 
             if($("body").height() - $(window).scrollTop() - 62 < $(window).height()){
@@ -64,7 +64,7 @@ ymaps.ready(function () {
 
             anchors = anchors.filter(function(anchor) {
                 var aTag = $(anchor);
-                
+
                 return (aTag.offset().top - 100) < $(window).scrollTop()
             })
 

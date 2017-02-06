@@ -755,7 +755,7 @@ h2 {
     color: #3366cc;
 }
 
-.comment textarea::-ms-placeholder {
+.comment textarea:-ms-input-placeholder {
     color: #3366cc;
 }
 
