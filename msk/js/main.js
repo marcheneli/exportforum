@@ -209,7 +209,7 @@ ymaps.ready(function () {
             var anchors = $.makeArray(e.target.anchors);
             anchors.reverse();
 
-            if(scrollingElement.height() - scrollingElement.scrollTop() < $(window).height()){
+            if(scrollingElement.height() - scrollingElement.scrollTop() - 62 < $(window).height()){
                 $('.active').toggleClass('active');
                 $("a[href=" + "#" + "contacts" + "]").toggleClass('active');
                 return;
