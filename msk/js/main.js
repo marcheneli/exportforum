@@ -209,7 +209,7 @@ ymaps.ready(function () {
             var anchors = $.makeArray(e.target.anchors);
             anchors.reverse();
 
-            if(scrollingElement.height() - scrollingElement.scrollTop() - 62 < $(window).height()){
+            if($("body").height() - $(window).scrollTop() - 62 < $(window).height()){
                 $('.active').toggleClass('active');
                 $("a[href=" + "#" + "contacts" + "]").toggleClass('active');
                 return;
@@ -217,8 +217,8 @@ ymaps.ready(function () {
 
             anchors = anchors.filter(function(anchor) {
                 var aTag = $(anchor);
-
-                return (aTag.offset().top - 100) < scrollingElement.scrollTop()
+                
+                return (aTag.offset().top - 100) < $(window).scrollTop()
             })
 
             if(anchors.length > 0){

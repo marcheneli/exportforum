@@ -30,42 +30,42 @@
     font-family: CirceMediumLight;
     font-style: normal;
     font-weight: 150;
-    src: url(../../fonts/CRC15.otf) format("truetype")
+    src: url(../../fonts/CRC15.eot?#iefix) format("embedded-opentype"), url(../../fonts/CRC15.woff) format("woff");
 }
 
 @font-face {
     font-family: CirceLight;
     font-style: normal;
     font-weight: 250;
-    src: url(../../fonts/CRC25.otf) format("truetype")
+    src: url(../../fonts/CRC25.eot?#iefix) format("embedded-opentype"), url(../../fonts/CRC25.woff) format("woff");
 }
 
 @font-face {
     font-family: CirceRegular;
     font-style: normal;
     font-weight: 350;
-    src: url(../../fonts/CRC35.otf) format("truetype")
+    src: url(../../fonts/CRC35.eot?#iefix) format("embedded-opentype"), url(../../fonts/CRC35.woff) format("woff");
 }
 
 @font-face {
     font-family: CirceBold;
     font-style: normal;
     font-weight: 650;
-    src: url(../../fonts/CRC55.otf) format("truetype")
+    src: url(../../fonts/CRC55.eot?#iefix) format("embedded-opentype"), url(../../fonts/CRC55.woff) format("woff");
 }
 
 @font-face {
     font-family: CirceMediumBold;
     font-style: normal;
     font-weight: 750;
-    src: url(../../fonts/CRC65.otf) format("truetype")
+    src: url(../../fonts/CRC65.eot?#iefix) format("embedded-opentype"), url(../../fonts/CRC65.woff) format("woff");
 }
 
 @font-face {
     font-family: CirceExtraBold;
     font-style: normal;
     font-weight: 750;
-    src: url(../../fonts/Circe-ExtraBold.otf) format("truetype")
+    src: url(../../fonts/Circe-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Circe-ExtraBold.woff) format("woff");
 }
 
 body {
