@@ -1448,7 +1448,26 @@ footer .organizator-footer {
 .toggle-menu span:after{top:18px}
 .toggle-menu span{position:relative;display:block}
 .toggle-menu span,.toggle-menu span:after,.toggle-menu span:before{
-    width:100%;height:2px;background-color:#000;-webkit-transition:all .3s;transition:all .3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-border-radius:2px;border-radius:2px}.toggle-menu.on span{background-color:transparent}.toggle-menu.on span:before{-webkit-transform:rotate(45deg) translate(-1px,0);-ms-transform:rotate(45deg) translate(-1px,0);transform:rotate(45deg) translate(-1px,0)}.toggle-menu.on span:after{-webkit-transform:rotate(-45deg) translate(6px,-7px);-ms-transform:rotate(-45deg) translate(6px,-7px);transform:rotate(-45deg) translate(6px,-7px)
+    width:100%;height:2px;background-color:#000;-webkit-transition:all .3s;transition:all .3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-border-radius:2px;border-radius:2px}
+.toggle-menu.on span{background-color:transparent}
+.toggle-menu.on span:before{-webkit-transform:rotate(45deg) translate(-1px,0);-ms-transform:rotate(45deg) translate(-1px,0);transform:rotate(45deg) translate(-1px,0)}
+.toggle-menu.on span:after{-webkit-transform:rotate(-45deg) translate(6px,-7px);-ms-transform:rotate(-45deg) translate(6px,-7px);transform:rotate(-45deg) translate(6px,-7px)
+}
+
+@media only screen and (max-width : 900px){
+    .toggle-menu{display:block;float:right;width:56px;height:56px;margin:20px 20px 4px}
+    .toggle-menu span:after,.toggle-menu span:before{content:"";position:absolute;left:0;top:18px}
+    .toggle-menu span:after{top:38px}
+    .toggle-menu span{position:relative;display:block}
+    .toggle-menu span,.toggle-menu span:after,.toggle-menu span:before{
+        width:100%;height:4px;background-color:#000;-webkit-transition:all .3s;transition:all .3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-border-radius:4px;border-radius:4px}
+    .toggle-menu.on span{background-color:transparent}
+    .toggle-menu.on span:before{
+        -webkit-transform:rotate(45deg) translate(-2px,0);-ms-transform:rotate(45deg) translate(-2px,0);transform:rotate(45deg) translate(-2px,0)
+    }
+    .toggle-menu.on span:after{
+        -webkit-transform:rotate(-45deg) translate(14px,-16px);-ms-transform:rotate(-45deg) translate(14px,-16px);transform:rotate(-45deg) translate(14px,-16px)
+    }
 }
 
 @media only screen and (max-width : 1200px){
@@ -1477,6 +1496,10 @@ footer .organizator-footer {
 
     .nav li span {
         display: none;
+    }
+
+    .header-nav a {
+        font-size: 36px;
     }
 
     body {
@@ -1511,6 +1534,31 @@ footer .organizator-footer {
         display: block;
     }
 }
+
+@media only screen and (max-width : 992px){
+    #jumbotron .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #jumbotron .jumbotron-logos {
+        height: 700px;
+        background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top 50px, right top 50px;
+        background-size: 250px 125px, 250px 125px;
+    }
+
+    .announcement-info h3 {
+        font-size: 22px;
+    }
+
+    .announcement-info p {
+        font-size: 12px;
+    }
+}
+
+
 
 .big-top-padding {
     padding-top: 192px;
