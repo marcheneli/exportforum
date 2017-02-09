@@ -165,9 +165,6 @@ ymaps.ready(function () {
                 },
                 partType: {
                     customRequired: true
-                },
-                Region: {
-                    customRequired: true
                 }
             },
             messages: {
@@ -184,8 +181,7 @@ ymaps.ready(function () {
                     required: "Введите свой email",
                     customemail: "Неверный формат email'а"
                 },
-                partType: { customRequired: "Укажите тип участия"},
-                Region: { customRequired: "Укажите регион"}
+                partType: { customRequired: "Укажите тип участия"}
             },
             highlight: function(element) {
                 $(element).closest('.form-group').addClass('has-error');
@@ -253,7 +249,7 @@ ymaps.ready(function () {
 
     function configP5api(formSelector){
     p5api.init(
-            p5api.config("ItsExportTime", "https://e-badging.com/endpoint", false, formSelector)
+            p5api.config("ItsExportTime", "", false, formSelector)
         );
     }
 
