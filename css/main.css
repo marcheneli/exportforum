@@ -174,11 +174,11 @@ body {
 }
 
 #jumbotron .jumbotron-logos {
-    height: 800px;
-    background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left 75px top 50px, right 75px top 50px;
-    background-size: 250px 125px, 250px 125px;
+    height: 700px;
+    background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg"), url("../img/romb_logo.png");
+    background-repeat: no-repeat, no-repeat,  no-repeat;
+    background-position: left 75px top 50px, right 75px top 50px, left 100px bottom 50px;
+    background-size: 250px 125px, 250px 125px, 650px 600px;
 }
 
 #jumbotron .logo-name {
@@ -1547,11 +1547,11 @@ footer .organizator-footer {
     }
 
     #jumbotron .jumbotron-logos {
-        height: 800px;
-        background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg");
-        background-repeat: no-repeat, no-repeat;
-        background-position: left top 50px, right top 50px;
-        background-size: 250px 125px, 250px 125px;
+        height: 550px;
+        background-image: url("../img/made_in_russia_logo.svg"), url("../img/bottom_logo.svg"), url("../img/romb_logo.png");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: left top 50px, right top 50px, left 70px bottom 50px;
+        background-size: 250px 125px, 250px 125px, 425px 400px;
     }
 
     .announcement-info h3 {

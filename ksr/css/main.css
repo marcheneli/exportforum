@@ -184,7 +184,7 @@ body {
     height: 300px;
     background-image: url("../../img/main_logo.svg"), url("../../img/top_org_ksr.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: left top 50px, right 100px top 50px;
+    background-position: left top 50px, right top 50px;
     background-size: 400px 200px, 300px 150px;
 }
 
@@ -1221,6 +1221,29 @@ footer .organizator-footer {
         float: none;
         width: 100%;
         display: block;
+    }
+}
+
+@media only screen and (max-width : 1026px){
+
+    #jumbotron .container {
+        padding-left: 220px;
+    }
+
+    #jumbotron .jumbotron-logos {
+        height: 300px;
+        background-image: url("../../img/main_logo.svg"), url("../../img/top_org_ksr.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top 50px, right top 50px;
+        background-size: 250px 125px, 200px 100px;
+    }
+
+    #jumbotron .made-in-russia-red {
+        font-size: 30px;
+    }
+
+    #jumbotron .made-in-russia-red-bold {
+        font-size: 30px;
     }
 }
 
