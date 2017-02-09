@@ -369,7 +369,9 @@ body {
 .partner_logos {
     list-style-type: none;
     padding: 0;
-    text-align: center
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info_partner_logos {
@@ -403,8 +405,8 @@ body {
 }
 
 .partner_logos li {
-    display: inline-block;
-    width: 250px;
+    display: display;
+    width: 300px;
     text-align: center;
 }
 
@@ -505,9 +507,10 @@ body {
 }
 
 .mpt_logo {
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    width: 250px;
+    width: 300px;
     height: 125px;
     background: url("../../img/mpt_logo.svg") no-repeat;
     background-size: 240px 120px;
@@ -515,33 +518,82 @@ body {
 }
 
 .fsa_logo {
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    width: 250px;
+    width: 300px;
     height: 125px;
     background: url("../../img/rosakr_logo.png") no-repeat;
-    background-size: 240px 120px;
-    background-position: center center;
+    background-size: 200px 90px;
+    background-position: left center;
 }
 
 .mer_logo {
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    width: 250px;
+    color: #000;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
     height: 125px;
-    background: url("../../img/mer_logo.svg") no-repeat;
-    background-size: 240px 120px;
-    background-position: center center;
+    background: url("../../img/mer_logo_2.svg") no-repeat;
+    background-size: 80px 80px;
+    background-position: left center;
 }
 
 .ros_nadzor_logo {
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    width: 250px;
-    height: 170px;
+    color: #000;
+    padding-left: 90px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: left;
+    width: 300px;
+    height: 90px;
     background: url("../../img/rospotrebnadzor.png") no-repeat;
-    background-size: 160px 160px;
-    background-position: center center;
+    background-size: 85px 85px;
+    background-position: left center;
+}
+
+.ros_zdrav_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding-left: 90px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: left;
+    width: 300px;
+    height: 90px;
+    background: url("../../img/ros_zdrav_logo.png") no-repeat;
+    background-size: 80px 80px;
+    background-position: left center;
+}
+
+.ros_sel_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding-left: 90px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: left;
+    width: 300px;
+    height: 90px;
+    background: url("../../img/ros_sel_logo.png") no-repeat;
+    background-size: 80px 80px;
+    background-position: left center;
 }
 
 #about p {
