@@ -249,7 +249,7 @@ ymaps.ready(function () {
 
     function configP5api(formSelector){
     p5api.init(
-            p5api.config("ItsExportTime", "", false, formSelector)
+            p5api.config("ExportKrasnodar", "https://e-badging.com/endpoint", false, formSelector)
         );
     }
 

@@ -1284,7 +1284,7 @@ footer .organizator-footer {
 }
 
 .photos-column{
-    width: 50%;
+    width: calc(50% - 20px);
     margin: -10px 10px;
     display: flex;
     flex-direction: column;
@@ -1294,7 +1294,6 @@ footer .organizator-footer {
     display: block;
     width: 100%;
     margin: 10px 0;
-    height: auto;
     cursor: pointer;
     flex: 0 0 auto;
 }
@@ -1371,7 +1370,7 @@ footer .organizator-footer {
     position: relative;
     overflow: hidden;
     width: 34%;
-    margin: 0 10px;
+    flex-shrink: 0;
 }
 
 .jcarousel .jcarousel-prev, .jcarousel-next {
@@ -1440,11 +1439,11 @@ footer .organizator-footer {
     display: flex;
     position: absolute;
     width: 200%;
-    margin: 0 -10px;
 }
 
 .jcarousel-list-item {
     display: flex;
+    width: 50%;
 }
 
 .toggle-menu-container{display:none}
