@@ -239,7 +239,6 @@ ymaps.ready(function () {
                 $('html,body').animate({scrollTop: aTag.offset().top},'slow');
             }, function(json) {
                 console.log("fail");
-                alert(JSON.stringify(json));
                 $("#registrationFailure").show();
                 $("#registrationForm").hide();
                 var aTag = $("a[name='registration']");
