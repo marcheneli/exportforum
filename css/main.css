@@ -904,6 +904,8 @@ h2 {
 #location {
     height: 600px;
     width: 50%;
+    box-sizing: border-box;
+    padding-right: 80px;
 }
 
 footer {
@@ -1509,6 +1511,14 @@ width:100%;height:4px;background-color:#000;-webkit-transition:all .3s;transitio
         float: none;
         width: 100%;
         display: block;
+    }
+
+    #location {
+        padding-right: 40px;
+    }
+
+    .organization-requisites {
+        padding-left: 40px;
     }
 }
 

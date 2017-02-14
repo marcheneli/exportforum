@@ -1,11 +1,11 @@
 ymaps.ready(function () {
     var myMap = new ymaps.Map('location', {
-            center: [55.75589, 37.554575],
+            center: [55.754634, 37.556657],
             zoom: 16
         }, {
             searchControlProvider: 'yandex#search'
         }),
-        myPlacemark = new ymaps.Placemark([55.75589, 37.554575], {
+        myPlacemark = new ymaps.Placemark([55.754634, 37.556657], {
             hintContent: 'Конгресс центр'
         }, {
             // Опции.
